@@ -1,12 +1,13 @@
-import { AiOutlineHome , AiOutlineUser, AiOutlineBorderlessTable ,AiOutlineUsergroupAdd ,AiOutlineMail } from "react-icons/ai";
+import { AiOutlineHome , AiOutlineUser, AiOutlineBorderlessTable ,AiOutlineUsergroupAdd ,AiOutlineMail , AiOutlineTwitter } from "react-icons/ai";
 import {MdOutlineNotificationsNone} from "react-icons/md"
 import {BsBookmarks} from "react-icons/bs"
 import {CgMoreO} from "react-icons/cg"
+import './nav.css'
 
 function Nav() {
   return (
     <div>
-        <h1>twitter</h1>
+        <div className="logo"><AiOutlineTwitter /></div>
         <ul>
             
             <li>
